@@ -1,8 +1,5 @@
-//Find element index in array by value
-// Initialize the Array
-let arr = ["one", "two", "three", "four"]
- 
-// Find first occurence of "two" (if any)
-var location = arr.indexOf("two")
-
-print(location!)
+//FIND ELEMENT INDEX IN ARRAY BY VALUE
+//If using a Decodable element, must use Equatable
+if let index = itemList.index(of: item) {
+    itemList.remove(at: index)
+}
